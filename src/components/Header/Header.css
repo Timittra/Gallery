@@ -1,0 +1,47 @@
+.header-section {
+    font-size: 14px;
+    font-weight:lighter;
+    color: black;
+}
+#navbarNav{
+    margin-left: 200px;
+}
+ .nav-item{
+    margin-left:5px;
+}
+.nav-img {
+    height: 70px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.nav-link button{
+    margin-top: -10px;
+    border: 1px solid black;
+}
+.dropdownBtn{
+    float: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+/* responsive */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #navbarNav{
+        margin-left: 50px;
+    }
+    .nav-item{
+        margin-left: 5px;
+    }
+ }

@@ -1,0 +1,49 @@
+.gly_img{
+    position: relative;
+    overflow: hidden;
+}
+.pt_60{
+    padding-top: 60px;
+}
+.pb_60{
+    padding-bottom: 60px;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+#gly .dropdownBtn{
+    margin-left: 530px;
+}
+@media (max-width: 575.98px) { 
+   #gly .gly_img_big,
+   #gly .gly_img{
+       margin-bottom: 20px;
+   }
+   #gly .dropdownBtn{
+    margin-left:10px;
+}
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+      #gly .gly_img_big,
+      #gly .gly_img{
+          margin-bottom: 20px;
+      }
+      #gly .dropdownBtn{
+        margin-left:0px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+      #gly .gly_img_big,
+      #gly .gly_img{
+          margin-bottom: 20px;
+      }
+      #gly .dropdownBtn{
+        margin-left:10px;
+    }
+  }
+  @media (max-width: 1199.98px) { 
+    #gly .dropdownBtn{
+        margin-left:10px;
+    }
+   }

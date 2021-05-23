@@ -1,0 +1,25 @@
+#banner{
+    text-align: center;
+    background: url(../../../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    height: 500px;
+}
+.bnr_overlay{
+    height: 500px;
+    background: rgba(80, 76, 76, 0.2);
+    padding: 88px 0;
+}
+.bnr_contetnt h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.search input{
+    border-radius: 15px;
+    background-color:white;
+    padding: 5px 20px;
+    width: 60%;
+    border: transparent;
+}
